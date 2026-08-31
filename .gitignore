@@ -21,3 +21,4 @@ desktop.ini
 # Malware samples — never commit live samples to a public repo
 *.exe
 *.dll
+PROJECT_NOTES.local.md
