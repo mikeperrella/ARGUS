@@ -1,5 +1,7 @@
 # ARGUS — Automated Rule Generation Under Supervision
 
+[![Deploy Pages](https://github.com/mikeperrella/ARGUS/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/mikeperrella/ARGUS/actions/workflows/deploy-pages.yml)
+
 **Live viewer:** [mikeperrella.github.io/ARGUS](https://mikeperrella.github.io/ARGUS/)
 
 Reverse engineering & detection engineering portfolio project. Third in a series, following **Aegis Triage** (agentic SOC alert triage) and **VIGCAP** (GRC / identity governance).
