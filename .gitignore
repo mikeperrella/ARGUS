@@ -22,3 +22,10 @@ desktop.ini
 *.exe
 *.dll
 PROJECT_NOTES.local.md
+
+# Frontend (viewer) — Phase 5
+/viewer/node_modules/
+/viewer/dist/
+/viewer/.vite/
+/viewer/dist-ssr/
+/viewer/*.local
