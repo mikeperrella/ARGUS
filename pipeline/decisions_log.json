@@ -1,0 +1,13 @@
+[
+  {
+    "timestamp": "2026-08-31T10:39:13.315761+00:00",
+    "rule_file": "candidate_v1.yar",
+    "decision": "accepted"
+  },
+  {
+    "timestamp": "2026-08-31T22:25:28.635719+00:00",
+    "rule_file": "candidate_v2.yar",
+    "decision": "rejected",
+    "reason": "candidate_v2.yar was not a real second finding. It was created by intentionally breaking a copy of the accepted candidate_v1.yar so the validate -> fail -> feedback -> redraft process could be tested from start to finish. Although it passed validation after being redrafted, it was still essentially a duplicate of candidate_v1.yar. The differences were minor changes to the structural markers and slightly looser thresholds, so there was not enough evidence to treat it as a separate, independently supported detection. Rejecting it therefore kept detections.yar free of a redundant entry that came from the testing exercise rather than from a genuine new finding."
+  }
+]

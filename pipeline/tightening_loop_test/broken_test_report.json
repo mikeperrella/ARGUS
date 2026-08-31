@@ -1,0 +1,14 @@
+{
+  "rule_file": "candidate_v1_broken_test.yar",
+  "sample": "C:\\Samples\\agenttesla_01\\0d736040f6fcab61ef390639d0f9deb1270c8b3492dd7abd9cdc8ec43a100364\\0d736040f6fcab61ef390639d0f9deb1270c8b3492dd7abd9cdc8ec43a100364.exe",
+  "true_positive": {
+    "passed": false,
+    "matched_rules": []
+  },
+  "false_positive": {
+    "passed": true,
+    "hits": [],
+    "files_scanned": 300
+  },
+  "instructions_for_model": "The candidate rule failed validation. It did NOT fire on the true-positive sample, it needs to be loosened or corrected so it actually matches the sample's real characteristics. "
+}
