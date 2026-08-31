@@ -1,5 +1,7 @@
 # ARGUS — Automated Rule Generation Under Supervision
 
+**Live viewer:** [mikeperrella.github.io/ARGUS](https://mikeperrella.github.io/ARGUS/)
+
 Reverse engineering & detection engineering portfolio project. Third in a series, following **Aegis Triage** (agentic SOC alert triage) and **VIGCAP** (GRC / identity governance).
 
 A credible, entry-level-appropriate reverse engineering foundation, paired with a genuine detection-engineering automation pipeline: run CAPA against a real malware sample, extract indicators, draft a candidate YARA rule via the Claude API, validate it against true-positive and false-positive tests, and require a human accept/reject decision before it's treated as final. Documented as a "Detection Story" per sample rather than a checklist. The name reflects the design itself: rule generation that is automated, but never unsupervised.
